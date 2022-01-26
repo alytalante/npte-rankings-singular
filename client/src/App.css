@@ -1,0 +1,251 @@
+body {
+  font-family: "Poppins", sans-serif;
+
+  text-align: center;
+}
+
+.wholeGrid {
+  position: relative;
+  min-height: 90vh;
+  display: grid;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  grid-template-columns: 1fr;
+}
+
+.editBox {
+  width: 50%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+tbody {
+  border: 2px solid black;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+table {
+  width: 90%;
+  margin: 15px auto 0 auto;
+  color: #404040;
+  font-size: 0.9rem;
+  border-radius: 5px;
+}
+
+table,
+tr {
+  border: 1px solid #404040;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #404040;
+  padding: 2px 15px;
+}
+
+td {
+  padding: 5px 15px;
+}
+
+td a {
+  text-decoration: none;
+  color: darkslateblue;
+}
+
+th {
+  background-color: #3f6da4;
+  color: white;
+  padding: 10px 15px;
+  font-size: 1.1rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #3f6da4;
+  font-weight: 800;
+}
+
+.error {
+  background-color: #db819b;
+  border: 2px solid #a05369;
+  border-radius: 5px;
+
+  font-weight: bold;
+  width: 200px;
+  margin: 20px auto;
+}
+
+.pageButton {
+  font-weight: bold;
+  background-color: #3f6da4;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border: none;
+  cursor: pointer;
+  min-width: 90px;
+  border-radius: 5px;
+}
+
+.create {
+  text-align: center;
+}
+
+.score {
+  border: 1px solid black;
+  padding: 15px;
+  width: 40%;
+  margin: 0 auto;
+  min-width: 350px;
+}
+
+.Nav {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid black;
+  padding: 10px 20px;
+  justify-content: space-between;
+}
+
+.Nav img {
+  width: 250px;
+}
+
+.Nav a {
+  text-decoration: underline;
+  color: #3f6da4;
+  font-weight: bold;
+}
+
+.subHead {
+  color: #404040;
+  padding: 10px 0;
+  font-size: 0.8rem;
+}
+
+.tournsBox {
+  border: 1px solid #404040;
+  width: 85%;
+  margin: 0 auto;
+  padding: 0 10px 20px 10px;
+  font-size: 0.7rem;
+}
+
+.btnBox {
+  margin: 0 auto 15px auto;
+  width: 90%;
+  display: block;
+  border-left: 1px solid #404040;
+  border-right: 1px solid #404040;
+  border-bottom: 1px solid #404040;
+  box-sizing: border-box;
+}
+
+.chartFlex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.chart {
+  border: 2px solid black;
+  flex: 1;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin: 5px 5px;
+}
+
+.pie {
+  max-width: 200px;
+}
+
+.chartBod {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.freeChart {
+  width: 80%;
+  margin: 5px auto;
+  border: 2px solid black;
+  flex: 1;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.chartHeader {
+  background-color: #3f6da4;
+  border-bottom: 2px solid black;
+}
+
+.chartHeader h3 {
+  color: white;
+}
+
+.menuFlex {
+  margin: 0 auto;
+  width: 90%;
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  border-top: none;
+  border-radius: 0 0 5px 5px;
+}
+
+.menuChild {
+  flex: 1;
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  min-width: 300px;
+}
+
+.menuChild2 {
+  border: 2px solid black;
+  border-top: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 0;
+  min-width: 300px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+select {
+  width: 90%;
+  padding: 5px;
+  margin-bottom: 5px;
+}
+
+.flexHead {
+  border: 2px solid black;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #3f6da4;
+  border-radius: 5px 5px 0 0;
+}
+
+.flexHead h1,
+.flexHead h3 {
+  color: white;
+  margin: 15px;
+}
