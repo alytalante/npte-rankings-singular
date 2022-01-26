@@ -19,6 +19,7 @@ The application includes a basic front-end to display points for competitors and
   <li> React
   <li> Node.js
   <li> Express
+  <li> ChartJS
   <li> Mongoose
   <li> MongoDB
   <li> Git
